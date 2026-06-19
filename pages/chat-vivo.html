@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Chat en Vivo - FiloBook's</title>
+</head>
+<body>
+   <nav>
+        <div class="nav-container">
+            <h1 class="brand"><a href="../index.html">FiloBook's</a></h1>
+            <div class="nav-links">
+                <a href="asistencia.html" class="back-link">Volver</a>
+            </div>
+        </div>
+   </nav>
+
+    <main class="main-content">
+        <h2 class="logo-text" style="color: #000; text-align: center; font-size: 2rem; margin-bottom: 10px;">Soporte Online</h2>
+        <div class="chat-window">
+            <div class="chat-header">
+                <div class="chat-header-dot"></div>
+                <span style="font-weight: 500; font-size: 14.5px;">Agente Filo (En línea)</span>
+            </div>
+            <div class="chat-body">
+                <div class="msg bot">¡Hola! ¿En qué puedo ayudarte hoy con tus libros digitales?</div>
+            </div>
+            <form class="chat-footer" onsubmit="event.preventDefault();">
+                <input type="text" placeholder="Escribe tu mensaje aquí..." required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+   <footer class="footer"><p> Ag Studio 2023 </p></footer>
+</body>
+</html>
